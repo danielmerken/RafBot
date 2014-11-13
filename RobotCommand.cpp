@@ -1,5 +1,5 @@
 #include "RobotCommand.h"
 
-RobotCommand::RobotCommand(void *args){
-  argPointer=args;
+RobotCommand::RobotCommand(double *speed){
+  speedPointer=speed;
 }
