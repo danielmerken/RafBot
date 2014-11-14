@@ -2,9 +2,9 @@
 
 class HumanController {
   private:
-    Joystick joystick
+    Joystick joystick;
   public:
   
-    HumanController()
+    HumanController();
     
-    void update()
+    void update();
