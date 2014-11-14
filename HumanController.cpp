@@ -7,8 +7,8 @@ HumanController::HumanController():
   
 }
 
-HumanController::Update()
+HumanController::update()
 {
-  RobotCommand.*speedPointer=joystick.getY();
+  RobotCommand.setSpeed(joystick.getY());
 }
   
