@@ -3,8 +3,9 @@
 class HumanController {
   private:
     Joystick joystick;
+    RobotCommand robotCommand
   public:
   
-    HumanController();
+    HumanController(RobotCommand rc);
     
     void update();
