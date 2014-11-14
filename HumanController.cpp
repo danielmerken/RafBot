@@ -9,6 +9,6 @@ HumanController::HumanController():
 
 HumanController::Update()
 {
-  RobotCommand.*speedPointer=joystick.getY()
+  RobotCommand.*speedPointer=joystick.getY();
 }
   
