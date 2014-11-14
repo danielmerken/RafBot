@@ -1,3 +1,5 @@
-typedef union DriveArgs {
-  double SpeedValue;
-} DriveArgs;
+class RobotCommand {
+  public:
+  RobotCommand(double *speed)
+  double *speedPointer
+}
