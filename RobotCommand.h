@@ -1,8 +1,9 @@
 class RobotCommand {
   public:
-  RobotCommand(double *speed)
-  setSpeed(double *speed)
+  RobotCommand(double *speed);
+  void setSpeed(double *speed);
+  double getSpeed();
   
   private:
-  double *speedPointer
+  double *speedPointer;
 }
