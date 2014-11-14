@@ -7,3 +7,7 @@ RobotCommand::RobotCommand(double *speed){
 RobotCommand::setSpeed(double *speed){
   speedPointer=speed;
 }
+
+RobotCommand::getSpeed(){
+  return *speedPointer;
+}
