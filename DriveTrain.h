@@ -12,7 +12,7 @@ class DriveTrain {
 
     
   public:
-    DriveTrain(RobotCommand robotCommandPointer);
+    DriveTrain(RobotCommand *robotCommandPointer);
     
     void update();
 }
