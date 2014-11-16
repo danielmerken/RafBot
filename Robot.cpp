@@ -9,6 +9,7 @@ Robot::Robot():
 }
 
 void Robot::update(){
-  humanController.update();
-  driveTrain.update();
+  robotCommand.reset();
+  humanController.update(&robotCommand);
+  driveTrain.update(&robotCommand);
 }
