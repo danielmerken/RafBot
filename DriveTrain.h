@@ -8,9 +8,11 @@ class DriveTrain {
     Victor leftBackVic;
     Victor rightFrontVic;
     Victor rightBackVic;
+    RobotCommand *robotCommand;
 
     
   public:
-    DriveTrain();
+    DriveTrain(RobotCommand robotCommandPointer);
     
     void update();
+}
