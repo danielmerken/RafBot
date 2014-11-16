@@ -1,3 +1,5 @@
+#ifndef HUMANCONTROLLER_H
+#define HUMANCONTROLLER_H
 #include <WPILib.h>
 
 class HumanController {
