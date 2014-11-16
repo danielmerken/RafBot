@@ -3,7 +3,7 @@
 class HumanController {
   private:
     Joystick joystick;
-    RobotCommand *robotCommand
+    RobotCommand *robotCommand;
   public:
   
     HumanController(RobotCommand robotCommandPointer);
