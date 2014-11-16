@@ -1,7 +1,7 @@
 #include "DriveTrain.h"
 #include "RobotCommand.h"
 
-DriveTrain::DriveTrain(RobotCommand robotCommandPointer): 
+DriveTrain::DriveTrain(RobotCommand *robotCommandPointer): 
   leftFrontVic((uint32_t) 5), 
   leftBackVic((uint32_t) 6), 
   rightFrontVic((uint32_t) 1), 
