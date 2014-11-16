@@ -6,7 +6,7 @@ class HumanController {
     RobotCommand *robotCommand;
   public:
   
-    HumanController(RobotCommand robotCommandPointer);
+    HumanController(RobotCommand *robotCommandPointer);
     
     void update();
 }
